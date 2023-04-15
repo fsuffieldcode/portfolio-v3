@@ -37,7 +37,7 @@ const Work = (props) => {
 				repo='https://github.com/fsuffieldcode/tenners'
 				demo='https://tenners.fly.dev'
 				about="
-        This web app allows users to create and manage lists of favourite music albums (you can register with a fake email to play around with it). I implemented a login system using Passport.js, providing salting and hashing for passwords. I used Spotify's web API for search and Mongoose/Mongodb as a database.
+        This web app allows users to create and manage lists of favourite music albums. I implemented a login system using Passport.js, providing salting and hashing for passwords, Spotify's web API for search and Mongoose/Mongodb for the database.</br>(you can register with a fake email to play around with it)
         "
 			/>
 			<Project
