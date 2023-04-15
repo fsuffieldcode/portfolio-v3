@@ -38,12 +38,20 @@ const GlobalStyle = createGlobalStyle`
 
     a {
         color: var(--darkgrey);
+        &:link {
+            text-decoration: none;
+        }
+        &:visited {
+            text-decoration: none;
+        }
         &:hover {
+            text-decoration: none;
             color: var(--coral);
-
+        }
+        &:active {
+            text-decoration: none;
         }
     }
 
 `
-
 export { GlobalStyle }
